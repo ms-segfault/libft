@@ -27,14 +27,14 @@ char my_toupper(unsigned int i, char c)
     return toupper(c);
 }
 
-int main()
-{
-    char *s = "Hello";
-    char *str = ft_strmapi(s, my_toupper);
-    if (str)
-    {
-        printf("%s\n", str);
-        free(str);
-    }
-    return 0;
-}
+// int main()
+// {
+//     char *s = "Hello";
+//     char *str = ft_strmapi(s, my_toupper);
+//     if (str)
+//     {
+//         printf("%s\n", str);
+//         free(str);
+//     }
+//     return 0;
+// }

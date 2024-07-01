@@ -20,11 +20,11 @@ void my_toupper(unsigned int i, char *c)
     *c = ft_toupper(*c);
 }
 
-int main()
-{
-    char s[] = "Hello";
-    ft_striteri(s, my_toupper);
-    printf("%s\n", s);
-    return 0;
-}
-// Output: HELLO
+// int main()
+// {
+//     char s[] = "Hello";
+//     ft_striteri(s, my_toupper);
+//     printf("%s\n", s);
+//     return 0;
+// }
+// // Output: HELLO

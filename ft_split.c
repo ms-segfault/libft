@@ -82,27 +82,27 @@ char **ft_split(char const *s, char c)
     return result;
 }
 
-int main()
-{
-    char *s = "Hel    lo World!";
-    char c = ' ';
-    char **result = ft_split(s, c);
-    int i = 0;
+// int main()
+// {
+//     char *s = "Hel    lo World!";
+//     char c = ' ';
+//     char **result = ft_split(s, c);
+//     int i = 0;
 
-    if (result) 
-    {
-        while (result[i] != NULL) 
-        {
-            printf("result[%d] = %s\n", i, result[i]);
-            free(result[i]);
-            i++;
-        }
-        free(result);
-    } 
-    else 
-    {
-        printf("Memory allocation failed\n");
-    }
+//     if (result) 
+//     {
+//         while (result[i] != NULL) 
+//         {
+//             printf("result[%d] = %s\n", i, result[i]);
+//             free(result[i]);
+//             i++;
+//         }
+//         free(result);
+//     } 
+//     else 
+//     {
+//         printf("Memory allocation failed\n");
+//     }
 
-    return 0;
-}
+//     return 0;
+// }

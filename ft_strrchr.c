@@ -12,7 +12,7 @@ char *ft_strrchr(const char *s, int c)
             return (0);
         if (s[i] == c)
             return ((char *)(s + i));
-            i--;
+        i--;
     }
     return (0);
 }
